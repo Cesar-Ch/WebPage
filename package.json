@@ -1,7 +1,6 @@
 {
   "name": "react-pagina-web",
   "private": true,
-  "homepage": "https://cesar-ch.github.io/WebPage",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
