@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --light-color-primary: #F7F9FC;
+    --light-color-secundary: #FFFFFF;
+    --light-color-tertiary: #2A86FF;
+    /*---------------------------------*/
+    --dark-color-primary: #24293E;
+    --dark-color-secundary: #2F3651;
+    --dark-color-tertiary: #86BBFF;
+    /*---------------------------------*/
+    --blue-background: #CDE7FE;
+    --blue-border: #86dffd;
+    --blue-color: #96dcee;
+    --yellow-background: #fff871;
+    --yellow-border: #ffea00;
+    /*-----------------------------------*/
+    --indigo-background: #262545;
+    --indigo-border: #5d6baa;
+    --indigo-color: #6b7abb;
+    --gray-border: #e8e8ea;
+    /*---------------------------------*/
+    --light-text: #494949;
+    --dark-text: #B7C1C8;
+}
+
+.dark-theme {
+    --light-color-primary: #1D1D1D;
+    --light-color-secundary: #242428;
+    --light-color-tertiary: #5FABFF;
+    /*---------------------------------*/
+    --dark-color-primary: #F2F4F6;
+    --dark-color-secundary: #f9fafb;
+    --dark-color-tertiary: #2A86FF;
+    /*---------------------------------*/
+    --blue-background: #262545;
+    --blue-border: #5d6baa;
+    --blue-color: #6b7abb;
+    --yellow-background: #fff871;
+    --yellow-border: #e8e8ea;
+    /*-----------------------------------*/
+    --indigo-background: #CDE7FE;
+    --indigo-border: #86dffd;
+    --indigo-color: #96dcee;
+    --gray-border: #ffea00;
+    /*---------------------------------*/
+    --light-text: #dee3e9;
+    --dark-text: #494949;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:980px) {
+    .container {
+        width: 95%;
+    }
+}

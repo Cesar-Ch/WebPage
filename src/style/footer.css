@@ -1,0 +1,37 @@
+
+footer{
+    padding: 20px 0px;
+    background: var(--light-color-primary);
+    color: var(--dark-color-primary);
+}
+
+.footer__author{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 1px solid var(--dark-text);
+}
+.footer__author h2{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.redes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes--icon{
+    width: 30px;
+    margin: 15px;
+    cursor: pointer;
+    fill: var(--dark-color-primary);
+}
+.footer__copyright{
+    color: var(--dark-color-primary);
+    font-weight: 200;
+    text-align: center;
+    padding: 15px;
+}

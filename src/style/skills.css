@@ -1,0 +1,64 @@
+.skills {
+    padding: 60px 0px;
+    background-color: var(--light-color-secundary);
+}
+
+.section__text {
+    width: 250px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.skills h2 {
+    text-align: center;
+    color: var(--light-text);
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: 5px solid var(--light-text);
+}
+
+.cont__skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.skill img {
+    width: 70px;
+}
+
+.skill:nth-child(1) {
+    background-color: rgba(255, 98, 0, 0.2);
+}
+
+.skill:nth-child(2) {
+    background-color: rgba(0, 187, 255, 0.2);
+}
+
+.skill:nth-child(3) {
+    background-color: rgba(145, 84, 215, 0.2);
+}
+
+.skill:nth-child(4) {
+    background-color: rgba(222, 191, 36, 0.236);
+}
+
+.skill:nth-child(4) img {
+    width: 55px;
+    height: 55px;
+}
+
+.skill:nth-child(5) {
+    background-color: rgba(111, 120, 225, 0.2);
+}
+
