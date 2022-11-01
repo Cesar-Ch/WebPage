@@ -49,12 +49,12 @@ const Portfolio = () => {
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="https://cesar-ch.github.io/To-Do-List/" target='__blank'>
+                    <a href="https://cesar-ch.github.io/WeatherPage/" target='__blank'>
                         <img src={clima} alt="" />
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="https://cesar-ch.github.io/WeatherPage/" target='__blank'>
+                    <a href="https://cesar-ch.github.io/To-Do-List/" target='__blank'>
                         <img src={list} alt="" />
                     </a>
                 </SwiperSlide>
