@@ -12,14 +12,14 @@ import '../style/portfolio.css'
 
 const Portfolio = () => {
     return (
-        <section className="portfolio">
+        <section className="portfolio" id='portfolio'>
 
             <div className="section__text">
                 <h2>Proyectos</h2>
             </div>
 
             <Swiper
-                id='portfolio'
+                
                 style={{
                     "--swiper-navigation-color": "#26f",
                     "--swiper-pagination-color": "#26f",
