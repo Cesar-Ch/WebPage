@@ -17,7 +17,7 @@ const nav__links = [
     },
     {
         path: '#portfolio',
-        link: 'Portafolio'
+        link: 'Proyectos'
     },
     {
         path: '#contact',
