@@ -15,7 +15,7 @@ const Portfolio = () => {
         <section className="portfolio">
 
             <div className="section__text">
-                <h2>Portafolio</h2>
+                <h2>Proyectos</h2>
             </div>
 
             <Swiper
