@@ -1,4 +1,4 @@
-import AboutImg from '../assets/undraw_profile_re_4a55.svg'
+import AboutImg from '../assets/about.svg'
 import '../style/about.css'
 
 

@@ -5,7 +5,7 @@
 
 .section__text {
     width: 250px;
-    margin: auto;
+    margin: 0 auto;
     margin-bottom: 50px;
 }
 
@@ -19,46 +19,84 @@
 }
 
 .cont__skills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+
 }
 
 .skill {
-    width: 100px;
-    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.skill div {
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 15px;
 }
-.skill img {
-    width: 70px;
+
+.skill div img {
+    width: 50px;
 }
 
-.skill:nth-child(1) {
-    background-color: rgba(255, 98, 0, 0.2);
+.skill:nth-child(1) div {
+    background-color: rgba(255, 98, 0, 0.12);
 }
 
-.skill:nth-child(2) {
-    background-color: rgba(0, 187, 255, 0.2);
+.skill:nth-child(2) div {
+    background-color: rgba(0, 187, 255, 0.12);
 }
 
-.skill:nth-child(3) {
-    background-color: rgba(145, 84, 215, 0.2);
+.skill:nth-child(3) div {
+    background-color: rgba(145, 84, 215, 0.12);
 }
 
-.skill:nth-child(4) {
-    background-color: rgba(222, 191, 36, 0.236);
+.skill:nth-child(4) div {
+    background-color: rgba(222, 191, 36, 0.18);
 }
 
-.skill:nth-child(4) img {
-    width: 55px;
-    height: 55px;
+.skill:nth-child(4) div img {
+    width: 40px;
+    height: 40px;
 }
 
-.skill:nth-child(5) {
-    background-color: rgba(111, 120, 225, 0.2);
+.skill:nth-child(5) div {
+    background-color: rgba(111, 120, 225, 0.15);
 }
 
+.skill:nth-child(6) div {
+    background-color: rgba(23, 186, 183, 0.1);
+}
+
+.skill:nth-child(7) div {
+    background-color: rgba(143, 112, 255, 0.2);
+
+}
+
+.skill:nth-child(8) div {
+    background-color: rgba(222, 76, 54, 0.13);
+}
+
+h4 {
+    color: var(--light-text);
+}
+
+@media only screen and (max-width:900px) {
+    .cont__skills {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media only screen and (max-width:650px) {
+    .cont__skills {
+        grid-template-columns: 1fr 1fr;
+    }
+    .skill{
+        padding: 0;
+    }
+}

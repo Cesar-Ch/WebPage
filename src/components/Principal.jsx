@@ -1,5 +1,5 @@
 import '../style/principal.css'
-import programming from '../assets/undraw_programming_re_kg9v.svg'
+import programming from '../assets/principal.svg'
 
 
 function Principal() {

@@ -5,9 +5,9 @@ import "swiper/css/effect-coverflow";
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, EffectCoverflow, Navigation, Pagination } from 'swiper';
-import contador from '../assets/contador.png'
-import clima from '../assets/Proyect01.png'
-import list from '../assets/ToDoList.png'
+import contador from '../assets/portfolio/contador.png'
+import clima from '../assets/portfolio/Proyect01.png'
+import list from '../assets/portfolio/ToDoList.png'
 import '../style/portfolio.css'
 
 const Portfolio = () => {
