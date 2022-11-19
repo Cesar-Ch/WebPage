@@ -8,6 +8,7 @@ import { Autoplay, EffectCoverflow, Navigation, Pagination } from 'swiper';
 import contador from '../assets/portfolio/contador.png'
 import clima from '../assets/portfolio/Proyect01.png'
 import list from '../assets/portfolio/ToDoList.png'
+import pokedex from '../assets/portfolio/pokedex.png'
 import '../style/portfolio.css'
 
 const Portfolio = () => {
@@ -56,6 +57,11 @@ const Portfolio = () => {
                 <SwiperSlide>
                     <a href="https://cesar-ch.github.io/To-Do-List/" target='__blank'>
                         <img src={list} alt="" />
+                    </a>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <a href="https://cesar-ch.github.io/pokedex-react/" target='__blank'>
+                        <img src={pokedex} alt="" />
                     </a>
                 </SwiperSlide>
             </Swiper>
