@@ -7,7 +7,6 @@ import 'swiper/css/navigation';
 import { Autoplay, EffectCoverflow, Navigation, Pagination } from 'swiper';
 import contador from '../assets/portfolio/contador.png'
 import clima from '../assets/portfolio/Proyect01.png'
-import list from '../assets/portfolio/ToDoList.png'
 import pokedex from '../assets/portfolio/pokedex.png'
 import '../style/portfolio.css'
 
@@ -52,11 +51,6 @@ const Portfolio = () => {
                 <SwiperSlide>
                     <a href="https://cesar-ch.github.io/WeatherPage/" target='__blank'>
                         <img src={clima} alt="" />
-                    </a>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <a href="https://cesar-ch.github.io/To-Do-List/" target='__blank'>
-                        <img src={list} alt="" />
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
