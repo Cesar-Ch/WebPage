@@ -2,6 +2,8 @@ import React from 'react'
 import '../style/footer.css'
 
 const Footer = () => {
+
+
     return (
         <footer>
             <div className="cont-footer">
@@ -22,7 +24,7 @@ const Footer = () => {
                 </div>
                 <div className="footer__copyright">
                     <p>
-                        Derechos reservados &copy; César Chafloque.
+                        {new Date().getFullYear()}
                     </p>
                 </div>
             </div>
